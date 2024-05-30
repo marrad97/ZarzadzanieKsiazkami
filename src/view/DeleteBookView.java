@@ -1,7 +1,7 @@
 package view;
 
 import model.Book;
-import service.DeleteBookUseCase;
+import service.DeleteBookService;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class DeleteBookView {
 
     private final ShowBooksView showBooksView;
-    private final DeleteBookUseCase deleteBookUseCase;
+    private final DeleteBookService deleteBookService;
 
-    public DeleteBookView(ShowBooksView showBooksView, DeleteBookUseCase deleteBookUseCase) {
+    public DeleteBookView(ShowBooksView showBooksView, DeleteBookService deleteBookService) {
         this.showBooksView = showBooksView;
-        this.deleteBookUseCase = deleteBookUseCase;
+        this.deleteBookService = deleteBookService;
     }
 
 
@@ -25,7 +25,7 @@ public class DeleteBookView {
         int bookId = scanner.nextInt();
         scanner.nextLine();
 
-        deleteBookUseCase.deleteBook(bookStore, bookId);
+        deleteBookService.deleteBook(bookStore, bookId);
 
         showBooksView.showAllBooks(bookStore);
 

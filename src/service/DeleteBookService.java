@@ -4,7 +4,7 @@ import model.Book;
 
 import java.util.List;
 
-public class DeleteBookUseCase {
+public class DeleteBookService {
 
     public void deleteBook(List<Book> bookList, int bookId) {
         try {

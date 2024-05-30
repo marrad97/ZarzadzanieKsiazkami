@@ -1,7 +1,7 @@
 package view;
 
 import model.Book;
-import service.SortBooksUseCase;
+import service.SortBooksService;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class SortBooksView {
 
     private final ShowBooksView showBooksView;
-    private final SortBooksUseCase sortBooksUseCase;
+    private final SortBooksService sortBooksService;
 
-    public SortBooksView(ShowBooksView showBooksView, SortBooksUseCase sortBooksUseCase) {
+    public SortBooksView(ShowBooksView showBooksView, SortBooksService sortBooksService) {
         this.showBooksView = showBooksView;
-        this.sortBooksUseCase = sortBooksUseCase;
+        this.sortBooksService = sortBooksService;
     }
 
     public void sortBooks(List<Book> bookStore, Scanner scanner) {
@@ -34,28 +34,28 @@ public class SortBooksView {
 
         switch (choice) {
             case 1:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByTitleDesc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByTitleDesc(bookStore));
                 break;
             case 2:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByTitleAsc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByTitleAsc(bookStore));
                 break;
             case 3:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByAuthorDesc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByAuthorDesc(bookStore));
                 break;
             case 4:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByAuthorAsc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByAuthorAsc(bookStore));
                 break;
             case 5:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByYearAsc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByYearAsc(bookStore));
                 break;
             case 6:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByYearDesc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByYearDesc(bookStore));
                 break;
             case 7:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByGenreDesc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByGenreDesc(bookStore));
                 break;
             case 8:
-                showBooksView.showAllBooks(sortBooksUseCase.sortByGenreAsc(bookStore));
+                showBooksView.showAllBooks(sortBooksService.sortByGenreAsc(bookStore));
                 break;
             case 0:
                 System.out.println("Wyjście z sortowania.");

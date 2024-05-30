@@ -11,17 +11,17 @@ public class Main {
 
         List<Book> books = initBooksAndShowAll();
 
-        ShowBooksUseCase showBooksUseCase = new ShowBooksUseCase();
-        DeleteBookUseCase deleteBookUseCase = new DeleteBookUseCase();
-        CreateBookUseCase createBookUseCase = new CreateBookUseCase();
-        FilterBooksUseCase filterBooksUseCase = new FilterBooksUseCase();
-        SortBooksUseCase sortBooksUseCase = new SortBooksUseCase();
+        ShowBooksService showBooksService = new ShowBooksService();
+        DeleteBookService deleteBookService = new DeleteBookService();
+        CreateBookService createBookService = new CreateBookService();
+        FilterBooksService filterBooksService = new FilterBooksService();
+        SortBooksService sortBooksService = new SortBooksService();
 
-        ShowBooksView showBooksView = new ShowBooksView(showBooksUseCase);
-        DeleteBookView deleteBookView = new DeleteBookView(showBooksView,deleteBookUseCase);
-        CreateBookView createBookView = new CreateBookView(showBooksView,createBookUseCase);
-        SortBooksView sortBooksView = new SortBooksView(showBooksView,sortBooksUseCase);
-        FilterBooksView filterBooksView = new FilterBooksView(showBooksView,filterBooksUseCase);
+        ShowBooksView showBooksView = new ShowBooksView(showBooksService);
+        DeleteBookView deleteBookView = new DeleteBookView(showBooksView, deleteBookService);
+        CreateBookView createBookView = new CreateBookView(showBooksView, createBookService);
+        SortBooksView sortBooksView = new SortBooksView(showBooksView, sortBooksService);
+        FilterBooksView filterBooksView = new FilterBooksView(showBooksView, filterBooksService);
 
         MainView mainView = new MainView(showBooksView,deleteBookView,createBookView,sortBooksView,filterBooksView);
 

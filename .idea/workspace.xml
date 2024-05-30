@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8f5ba1-57de-4275-8f4f-2be29d98b57c" name="Changes" comment="kod + readme" />
+    <list default="true" id="8a8f5ba1-57de-4275-8f4f-2be29d98b57c" name="Changes" comment="poprawka do readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/CreateBookUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CreateBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/DeleteBookUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/DeleteBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/FilterBooksUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/FilterBooksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ShowBooksUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ShowBooksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/SortBooksUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/SortBooksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CreateBookView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CreateBookView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/DeleteBookView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/DeleteBookView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/FilterBooksView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FilterBooksView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ShowBooksView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ShowBooksView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/SortBooksView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SortBooksView.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -49,6 +64,20 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mm\IdeaProjects\ZarzadzanieKsiazkami\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ZarzadzanieKsiazkami" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,12 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717060569018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="poprawka do readme">
+      <option name="closed" value="true" />
+      <created>1717061074453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717061074453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="kod + readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="kod + readme" />
+    <MESSAGE value="poprawka do readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawka do readme" />
   </component>
 </project>

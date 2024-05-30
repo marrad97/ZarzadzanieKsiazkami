@@ -4,7 +4,7 @@ import model.Book;
 
 import java.util.List;
 
-public class CreateBookUseCase {
+public class CreateBookService {
 
     public void createBook(List<Book> bookList, String title, String author, int year, String genre){
         int id = bookList.size() + 1;

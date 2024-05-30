@@ -4,7 +4,7 @@ import model.Book;
 
 import java.util.List;
 
-public class ShowBooksUseCase {
+public class ShowBooksService {
 
     public void showBooks(List<Book> bookList){
         for (Book book : bookList) {

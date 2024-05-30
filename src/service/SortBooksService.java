@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class SortBooksUseCase {
+public class SortBooksService {
 
     public List<Book> sortByTitleAsc(List<Book> bookList) {
         List<Book> sortedList = new ArrayList<>(bookList);

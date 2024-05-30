@@ -5,7 +5,7 @@ import model.Book;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FilterBooksUseCase {
+public class FilterBooksService {
 
     public List<Book> fiterByTitle(List<Book> bookList, String searchWord) {
         List<Book> filteredBooks = new ArrayList<>();

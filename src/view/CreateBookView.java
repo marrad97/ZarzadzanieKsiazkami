@@ -1,7 +1,7 @@
 package view;
 
 import model.Book;
-import service.CreateBookUseCase;
+import service.CreateBookService;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class CreateBookView {
 
     private final ShowBooksView showBooksView;
-    private final CreateBookUseCase createBookUseCase;
+    private final CreateBookService createBookService;
 
-    public CreateBookView(ShowBooksView showBooksView, CreateBookUseCase createBookUseCase) {
+    public CreateBookView(ShowBooksView showBooksView, CreateBookService createBookService) {
         this.showBooksView = showBooksView;
-        this.createBookUseCase = createBookUseCase;
+        this.createBookService = createBookService;
     }
 
     public void createSingleBook(List<Book> bookStore, Scanner scanner) {
@@ -33,7 +33,7 @@ public class CreateBookView {
         System.out.println("Podaj gatunek książki:");
         String genre = scanner.nextLine();
 
-        createBookUseCase.createBook(bookStore, title, author, year, genre);
+        createBookService.createBook(bookStore, title, author, year, genre);
 
         showBooksView.showAllBooks(bookStore);
     }

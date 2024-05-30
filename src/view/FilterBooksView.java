@@ -1,7 +1,7 @@
 package view;
 
 import model.Book;
-import service.FilterBooksUseCase;
+import service.FilterBooksService;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,11 +9,11 @@ import java.util.Scanner;
 public class FilterBooksView {
 
     private final ShowBooksView showBooksView;
-    private final FilterBooksUseCase filterBooksUseCase;
+    private final FilterBooksService filterBooksService;
 
-    public FilterBooksView(ShowBooksView showBooksView, FilterBooksUseCase filterBooksUseCase) {
+    public FilterBooksView(ShowBooksView showBooksView, FilterBooksService filterBooksService) {
         this.showBooksView = showBooksView;
-        this.filterBooksUseCase = filterBooksUseCase;
+        this.filterBooksService = filterBooksService;
     }
 
     public void filterBooks(List<Book> bookStore, Scanner scanner) {
@@ -32,22 +32,22 @@ public class FilterBooksView {
             case 1:
                 System.out.println("Wpisz tytuł:");
                 String title = scanner.nextLine();
-                showFilteredBook(filterBooksUseCase.fiterByTitle(bookStore,title));
+                showFilteredBook(filterBooksService.fiterByTitle(bookStore,title));
                 break;
             case 2:
                 System.out.println("Wpisz autora:");
                 String author = scanner.nextLine();
-                showFilteredBook(filterBooksUseCase.fiterByAuthor(bookStore,author));
+                showFilteredBook(filterBooksService.fiterByAuthor(bookStore,author));
                 break;
             case 3:
                 System.out.println("Wpisz rok wydania:");
                 String year = scanner.nextLine();
-                showFilteredBook(filterBooksUseCase.fiterByYear(bookStore,year));
+                showFilteredBook(filterBooksService.fiterByYear(bookStore,year));
                 break;
             case 4:
                 System.out.println("Wpisz rok gatunek:");
                 String genre = scanner.nextLine();
-                showFilteredBook(filterBooksUseCase.fiterByGenre(bookStore,genre));
+                showFilteredBook(filterBooksService.fiterByGenre(bookStore,genre));
                 break;
             case 0:
                 System.out.println("Wyjście z filtrowania.");
