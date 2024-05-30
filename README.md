@@ -1,3 +1,33 @@
+# Zarządzanie książkami
+
+## Spis treści
+
+- [Opis projektu](#opis-projektu)
+- [Funkcjonalności](#funkcjonalności)
+- [Instrukcja obsługi](#instrukcja-obsługi)
+    - [Wymagania](#wymagania)
+    - [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+    - [Przykładowe użycie](#przykładowe-użycie)
+- [Autorzy](#autorzy)
+
+## Opis projektu
+
+Projekt "Zarządzanie książkami" to aplikacja konsolowa w języku Java umożliwiająca zarządzanie kolekcją książek. Użytkownik może dodawać, usuwać, sortować, filtrować oraz wyświetlać książki. Projekt ma na celu demonstrację podstawowych operacji CRUD (Create, Read, Update, Delete) oraz wykorzystania wyrażeń regularnych i sortowania.
+
+## Funkcjonalności
+
+1. **Wyszukiwanie książek z wykorzystaniem wyrażeń regularnych**
+    - Użytkownik może filtrować książki według tytułu, autora, roku lub gatunku.
+2. **Sortowanie książek według różnych kryteriów**
+    - Sortowanie książek według tytułu, autora, roku i gatunku w porządku rosnącym i malejącym.
+3. **Dodawanie książek**
+    - Użytkownik może dodać nową książkę do kolekcji, podając jej tytuł, autora, rok wydania oraz gatunek.
+4. **Usuwanie książek**
+    - Użytkownik może usunąć książkę z kolekcji, podając jej identyfikator.
+5. **Wyświetlanie informacji o książkach**
+    - Wyświetlanie listy wszystkich książek znajdujących się w kolekcji.
+
+
 ## Instrukcja obsługi
 
 ### Wymagania

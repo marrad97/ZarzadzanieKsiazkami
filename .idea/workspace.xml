@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8f5ba1-57de-4275-8f4f-2be29d98b57c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZarzadzanieKsiazkami.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/CreateBookUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/DeleteBookUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/FilterBooksUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ShowBooksUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/SortBooksUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/CreateBookView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/DeleteBookView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/FilterBooksView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ShowBooksView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/SortBooksView.java" afterDir="false" />
-    </list>
+    <list default="true" id="8a8f5ba1-57de-4275-8f4f-2be29d98b57c" name="Changes" comment="kod + readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "marrad97"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/marrad97/ZarzadzanieKsiazkami.git",
+    "accountId": "b9997571-4cf0-4539-b692-567533c273ff"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -68,9 +59,20 @@
       <option name="presentableId" value="Default" />
       <updated>1717059800075</updated>
     </task>
+    <task id="LOCAL-00001" summary="kod + readme">
+      <option name="closed" value="true" />
+      <created>1717060569018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717060569018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="kod + readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="kod + readme" />
   </component>
 </project>
