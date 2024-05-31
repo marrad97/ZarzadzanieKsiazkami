@@ -18,7 +18,7 @@ public class SortBooksView {
 
     public void sortBooks(List<Book> bookStore, Scanner scanner) {
 
-        System.out.println("Wpisz numer akcji ktorą chcesz wykonać aby posortować listę :");
+        System.out.println("Wpisz numer akcji którą chcesz wykonać aby posortować listę :");
         System.out.println("1. Sortuj po tytule malejąco (Z-A)");
         System.out.println("2. Sortuj po tytule rosnąco (A-Z)");
         System.out.println("3. Sortuj po autorze malejąco (Z-A)");

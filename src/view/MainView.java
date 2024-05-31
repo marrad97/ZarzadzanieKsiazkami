@@ -31,8 +31,8 @@ public class MainView {
             System.out.println("1. Wyszukaj książki z wykorzystaniem wyrażeń regularnych");
             System.out.println("2. Sortuj książki według różnych kryteriów (np. tytuł, autor, rok wydania, gatunek)");
             System.out.println("3. Dodaj książki");
-            System.out.println("4. Usuń ksiażki");
-            System.out.println("5. Wyświetl informacje o książkach.");
+            System.out.println("4. Usuń książki");
+            System.out.println("5. Wyświetl informacje o książkach");
             System.out.println("0. Wyjdź");
 
             System.out.println("Wpisz numer akcji którą chcesz wykonać:");

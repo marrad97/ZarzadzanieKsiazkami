@@ -20,7 +20,7 @@ public class DeleteBookView {
     public void deleteSingleBook(List<Book> bookStore, Scanner scanner) {
 
         showBooksView.showAllBooks(bookStore);
-        System.out.println("Wybierz idenktyfikator ksiązki do usunięcia:");
+        System.out.println("Wybierz idenktyfikator książki do usunięcia:");
 
         int bookId = scanner.nextInt();
         scanner.nextLine();

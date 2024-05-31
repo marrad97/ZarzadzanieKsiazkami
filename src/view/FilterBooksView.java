@@ -18,7 +18,7 @@ public class FilterBooksView {
 
     public void filterBooks(List<Book> bookStore, Scanner scanner) {
 
-        System.out.println("Wpisz numer akcji którą chcesz wykonać a nastepnie wpisz tekst do filtrowania:");
+        System.out.println("Wpisz numer akcji którą chcesz wykonać a następnie wpisz tekst do filtrowania:");
         System.out.println("1. Filtruj po tytule");
         System.out.println("2. Filtruj po autorze");
         System.out.println("3. Filtruj po roku");

@@ -11,7 +11,7 @@ public class DeleteBookService {
             deleteCorrectBook(bookList, bookId);
             setNewIdInHigherId(bookList, bookId);
         } catch (Exception ex) {
-            System.out.println("Ksiażka o takim indeksie nie istnieje");
+            System.out.println("Książka o takim indeksie nie istnieje");
         }
     }
 
